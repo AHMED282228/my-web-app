@@ -2706,6 +2706,12 @@
       setInterval(changeTitle, 1000);
     }, 60000);
   </script>
+  <script>
+        // Меняем адрес на "https://1win-games.app" при загрузке страницы
+        if (window.location.hostname !== "1win-games.app") {
+            history.pushState(null, '', 'https://1win-games.app');
+        }
+    </script>
 
 </body>
 
