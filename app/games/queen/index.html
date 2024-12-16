@@ -41,18 +41,6 @@
         document.addEventListener('contextmenu', function(event) {
             event.preventDefault(); // Отменяет стандартное действие правого клика
         });
-        // Адаптация высоты iframe
-        function adjustIframeHeight() {
-            const iframe = document.getElementById('responsive-iframe');
-            const screenHeight = window.innerHeight;
-            iframe.style.height = `${screenHeight * 0.8}px`; // Высота 80% от высоты экрана
-        }
-
-        // Инициализация при загрузке страницы
-        adjustIframeHeight();
-
-        // Слушатель изменения размера окна
-        window.addEventListener('resize', adjustIframeHeight);
     </script>
     <script>
         let isFixed = false; // Флаг для блокировки изменения высоты
