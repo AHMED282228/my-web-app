@@ -1,7 +1,7 @@
 // ============ Конфиг и статические данные ============
 
 const CONFIG = {
-    SUPPORT_URL: "https://t.me/hog_sup",
+    SUPPORT_URL: "https://t.me/Aurex_trd",
     CHANNEL_URL: "https://t.me/hoganalytics",
     // Юзернейм бота БЕЗ @ — нужен для кнопки «Пригласить друга»
     // (ссылка вида t.me/<бот>?start=<id юзера>). Пусто — кнопка скрыта.
